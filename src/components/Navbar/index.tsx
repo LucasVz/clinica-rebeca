@@ -1,22 +1,31 @@
+import React, { useState } from "react";
 import { Container, Logo, Options, Button } from "./style";
 import logo from "../../assets/logo.png";
-import React, { useState } from "react";
 
-//const [navControl, setNavControl] = useState<any>("");
-
-function OpenOptions() {
-  //setNavControl(true);
-}
-
-//console.log(navControl);
 export default function Navbar() {
+  const [navControl, setNavControl] = useState<Boolean>(false);
+
+  function OpenOptions() {
+    if (!navControl) {
+      setNavControl(true);
+    } else setNavControl(false);
+  }
+
+  console.log(navControl);
   return (
     <Container>
       <Logo>
         <img src={logo} alt="logo clinica rebeca vaz" />
       </Logo>
-      <Button onClick={OpenOptions}>x</Button>
-      <Options>
+      <Button>
+        <input onClick={OpenOptions} type="checkbox" id="checkbox-menu" />
+        <label htmlFor="checkbox-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </Button>
+      <Options className={navControl && "active"}>
         <li>
           <a href="#Inicio">Inicio</a>
         </li>

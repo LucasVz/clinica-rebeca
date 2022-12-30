@@ -12,3 +12,12 @@ html {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
+
+:target {
+  scroll-margin-top: 110px;
+}
+@media (max-width: 800px) {
+  :target {
+    scroll-margin-top: 220px;
+  }
+}
