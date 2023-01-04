@@ -11,6 +11,7 @@ const Container = styled.div`
   justify-content: space-between;
   padding: 0 70px;
   font-size: 40px;
+  z-index: 1;
   @media (max-width: 800px) {
     flex-direction: column;
     height: auto;
