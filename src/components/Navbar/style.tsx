@@ -59,7 +59,7 @@ const Options = styled.ul`
     color: #f6f6f6f6;
     font-weight: bold;
     cursor: pointer;
-    text-shadow: 0.1em 0.1em 0.3em purple;
+    text-shadow: 0.1em 0.1em 0.3em #7a1c3bf8;
   }
   a:hover {
     text-shadow: 0.1em 0.1em 0.3em black;

@@ -16,24 +16,28 @@ const Container = styled.div`
     color: #ffffff;
     font-size: 50px;
     font-weight: bold;
+    line-height: 58px;
     margin-bottom: 50px;
+    text-shadow: 0.1em 0.1em 0.1em #242121;
     @media (max-width: 800px) {
+      line-height: 38px;
       font-size: 28px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   }
   h2 {
+    text-shadow: 0.1em 0.1em 0.1em #242121;
     color: #f0f0f0;
     margin-bottom: 30px;
     @media (max-width: 800px) {
       text-align: center;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
   }
   @media (max-width: 800px) {
     margin-top: 222px;
-    height: 300px;
+    height: 360px;
     justify-content: center;
   }
 
