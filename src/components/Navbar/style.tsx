@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 112px;
+  height: 100px;
   width: 100%;
   background: linear-gradient(to right, #f6f6f6, #c95078f9);
   position: fixed;
@@ -20,7 +20,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.div`
-  height: 100px;
+  height: 90px;
   @media (max-width: 800px) {
     height: 140px;
     margin-bottom: 10px;
@@ -68,7 +68,7 @@ const Options = styled.ul`
 
 const Button = styled.div`
   display: none;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   @media (max-width: 800px) {
     display: flex;
   }
@@ -81,15 +81,15 @@ const Button = styled.div`
     position: relative;
     display: block;
     height: 22px;
-    width: 30px;
+    width: 28px;
   }
   label span {
     position: absolute;
     display: block;
-    height: 5px;
+    height: 3px;
     width: 100%;
     border-radius: 30px;
-    background: black;
+    background: #ffffff;
     transition: 0.25s ease-in-out;
   }
   label span:nth-child(1) {

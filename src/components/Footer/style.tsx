@@ -15,7 +15,7 @@ const Container = styled.div`
     margin-bottom: 10px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
     h1 {
@@ -31,7 +31,10 @@ const Text = styled.p`
 const Contato = styled.div`
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  @media (max-width: 800px) {
+    align-items: center;
+  }
   flex-direction: column;
   img {
     width: 200px;

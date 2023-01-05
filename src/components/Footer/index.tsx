@@ -16,7 +16,7 @@ export default function Footer() {
         referrerPolicy="no-referrer-when-downgrade"
         title="map"
       ></iframe>
-      <Container>
+      <Container id="Footer">
         <Contato>
           <img src={Logo} alt="logo" />
           <p>email:rebecavazfisio@gmail.com</p>
