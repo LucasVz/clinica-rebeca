@@ -20,7 +20,7 @@ export default function Footer() {
         <Contato>
           <img src={Logo} alt="logo" />
           <p>email:rebecavazfisio@gmail.com</p>
-          <p>Numero:(86)99954-7775</p>
+          <p>Telefone:(86)99954-7775</p>
         </Contato>
         <Social>
           <h1>SOCIAL MEDIA</h1>

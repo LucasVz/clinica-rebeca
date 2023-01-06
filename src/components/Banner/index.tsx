@@ -9,13 +9,16 @@ export default function Banner() {
           <br /> valorizando o que já
           <br /> existe de melhor em você!
         </h1>
-        <h2>Rebeca Vaz, especialista em armonização corporal</h2>
+        <h2>
+          Rebeca Vaz <br />
+          Especialista em Harmonização Corporal
+        </h2>
         <Button>
           <a
             target="blank"
             href="https://api.whatsapp.com/send?phone=5586999348656&text=agendando%20consulta"
           >
-            Agende sua consulta
+            ENTRAR EM CONTATO
           </a>
         </Button>
       </Container>

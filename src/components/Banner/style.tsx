@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from "../../assets/background.png";
+import background from "../../assets/backgroundsol.png";
 
 const Container = styled.div`
   display: flex;
@@ -10,17 +10,17 @@ const Container = styled.div`
   background-image: url(${background});
   background-size: cover;
   background-position-x: right;
-  height: 600px;
+  height: 700px;
   padding: 0 10%;
   h1 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 58px;
     margin-bottom: 50px;
     text-shadow: 0.1em 0.1em 0.1em #242121;
     @media (max-width: 800px) {
-      line-height: 38px;
+      line-height: 28px;
       font-size: 28px;
       text-align: center;
       margin-bottom: 30px;
@@ -28,9 +28,11 @@ const Container = styled.div`
   }
   h2 {
     text-shadow: 0.1em 0.1em 0.1em #242121;
-    color: #f0f0f0;
+    color: #ffffff;
     margin-bottom: 30px;
+    font-size: 30px;
     @media (max-width: 800px) {
+      font-size: 20px;
       text-align: center;
       margin-bottom: 20px;
     }
@@ -38,7 +40,7 @@ const Container = styled.div`
   @media (max-width: 800px) {
     margin-top: 222px;
     height: 360px;
-    justify-content: center;
+    align-items: center;
   }
 
   animation: fadeInAnimation ease 2s;
@@ -55,16 +57,21 @@ const Container = styled.div`
 const Button = styled.button`
   all: unset;
   width: 180px;
+  font-size: 16px;
   @media (max-width: 800px) {
-    width: 100%;
+    width: 90%;
+    padding: 12px 0px;
   }
   display: flex;
   justify-content: center;
   background: rgba(22, 156, 22, 0.996);
-  padding: 10px 10px;
-  border-radius: 10px;
+  padding: 12px 40px;
+  border-radius: 40px;
   a {
     color: #ffffff;
+  }
+  &&:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 `;
 
