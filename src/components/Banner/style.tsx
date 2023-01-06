@@ -10,7 +10,7 @@ const Container = styled.div`
   background-image: url(${background});
   background-size: cover;
   background-position-x: right;
-  height: 700px;
+  height: calc(100vh - 100px);
   padding: 0 10%;
   h1 {
     color: #ffffff;
