@@ -9,14 +9,14 @@ const Container = styled.div`
   background: linear-gradient(to right, #f6f6f655, #c950785e);
   background-image: url(${background});
   background-size: cover;
-  background-position-x: right;
+  background-position-x: 85%;
   height: calc(100vh - 100px);
   padding: 0 10%;
   h1 {
     color: #ffffff;
     font-size: 60px;
     font-weight: bold;
-    line-height: 58px;
+    line-height: 64px;
     margin-bottom: 50px;
     text-shadow: 0.1em 0.1em 0.1em #242121;
     @media (max-width: 800px) {

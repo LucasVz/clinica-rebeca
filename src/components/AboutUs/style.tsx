@@ -17,11 +17,12 @@ const Container = styled.div`
   }
   h2 {
     font-size: 17px;
-    line-height: 15px;
+    line-height: 18px;
     margin-bottom: 60px;
     font-weight: 500;
     @media (max-width: 800px) {
       font-size: 14px;
+      line-height: 15px;
     }
   }
 `;
