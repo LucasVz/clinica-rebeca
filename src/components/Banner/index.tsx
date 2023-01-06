@@ -10,7 +10,7 @@ export default function Banner() {
           <br /> existe de melhor em você!
         </h1>
         <h2>
-          Dra Rebeca Vaz/ Fisioterapeuta <br />
+          Rebeca Vaz - Fisioterapeuta <br />
           Especialista em Harmonização Corporal
         </h2>
         <Button>

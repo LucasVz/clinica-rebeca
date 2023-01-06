@@ -6,7 +6,6 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 100px;
-  background: linear-gradient(to right, #f6f6f655, #c950785e);
   background-image: url(${background});
   background-size: cover;
   background-position-x: 85%;

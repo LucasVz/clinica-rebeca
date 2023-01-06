@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   padding: 7% 10%;
-  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff, #bb8d0e);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@ const Container = styled.div`
   h1 {
     font-weight: bold;
     font-size: 40px;
-    color: #a0395e;
+    color: #af3864;
     margin-bottom: 30px;
   }
   h2 {
