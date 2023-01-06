@@ -19,11 +19,13 @@ const Container = styled.div`
     font-size: 17px;
     line-height: 18px;
     margin-bottom: 60px;
-    font-weight: 500;
     @media (max-width: 800px) {
       font-size: 14px;
       line-height: 15px;
     }
+  }
+  span {
+    font-weight: bold;
   }
 `;
 const Galery = styled.div`
