@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar />
       <Banner />
       <AboutUs />
-      <Depoiments />
       <ClinicServices />
+      <Depoiments />
       <Footer />
     </Container>
   );

@@ -9,6 +9,9 @@ const Container = styled.div`
   justify-content: center;
   font-size: 40px;
   text-align: center;
+  @media (min-width: 1200px) {
+    height: calc(100vh - 100px);
+  }
   h1 {
     font-weight: bold;
     font-size: 40px;
@@ -43,6 +46,7 @@ const Galery = styled.div`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     object-fit: cover;
     width: 22%;
+    max-height: 250px;
 
     @media (max-width: 800px) {
       width: 250px;
