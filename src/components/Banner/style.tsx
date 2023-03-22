@@ -9,8 +9,7 @@ const Container = styled.div`
   background-image: url(${background});
   background-size: cover;
   background-position-x: 85%;
-  height: calc(100vh - 100px);
-  padding: 0 10%;
+  padding: 8% 10%;
   h1 {
     color: #ffffff;
     font-size: 60px;

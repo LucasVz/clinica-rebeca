@@ -10,9 +10,9 @@ export default function AboutUs() {
       <h2>
         Estamos localizada no <span>Centro Comercial Igara Clube</span>, na
         Beira Rio, um dos principais pontos turísticos de Parnaíba. Nossa
-        recepção conta com as melhores marcas de cosméticos home Care do
+        recepção conta com as melhores marcas de cosméticos home care do
         mercado, sala de atendimento individual previamente pensada para
-        proporcionar relaxamento,discrição e bem está. Devidamente equipada e
+        proporcionar relaxamento,discrição e bem estar. Devidamente equipada e
         climatizada para melhorar ainda mais sua experiência.
       </h2>
       <Galery>

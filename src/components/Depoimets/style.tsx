@@ -6,9 +6,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  @media (min-width: 1200px) {
-    height: calc(100vh - 100px);
-  }
+  background-color: #f6f6f6;
 
   h1 {
     font-weight: bold;
@@ -16,6 +14,10 @@ const Container = styled.div`
     color: #af3864;
     margin-bottom: 70px;
     text-align: center;
+    @media (max-width: 800px) {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
   }
 `;
 

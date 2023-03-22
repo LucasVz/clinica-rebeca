@@ -9,14 +9,15 @@ const Container = styled.div`
   justify-content: center;
   font-size: 40px;
   text-align: center;
-  @media (min-width: 1200px) {
-    height: calc(100vh - 100px);
-  }
+
   h1 {
     font-weight: bold;
     font-size: 40px;
     color: #af3864;
     margin-bottom: 30px;
+    @media (max-width: 800px) {
+      font-size: 28px;
+    }
   }
   h2 {
     font-size: 17px;

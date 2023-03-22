@@ -33,10 +33,10 @@ export default function Navbar() {
           <a href="#Sobre">Sobre Nós</a>
         </li>
         <li>
-          <a href="#Depoimentos">Depoimentos</a>
+          <a href="#Servicos">Serviços</a>
         </li>
         <li>
-          <a href="#Servicos">Serviços</a>
+          <a href="#Depoimentos">Depoimentos</a>
         </li>
         <li>
           <a href="#Footer">Footer</a>
