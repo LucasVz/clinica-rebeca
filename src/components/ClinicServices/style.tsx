@@ -5,7 +5,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4% 10%;
+  padding: 6% 10%;
   background: radial-gradient(#ffffff 10px, #ffffff, #aa349a8b);
 
   h1 {
