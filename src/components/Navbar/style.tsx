@@ -15,14 +15,13 @@ const Container = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 10px 10px 0 10px;
   }
 `;
 
 const Logo = styled.div`
   height: 90px;
   @media (max-width: 800px) {
-    height: 140px;
     margin-bottom: 10px;
   }
   img {

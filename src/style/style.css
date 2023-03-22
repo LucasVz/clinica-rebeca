@@ -18,6 +18,6 @@ html {
 }
 @media (max-width: 800px) {
   :target {
-    scroll-margin-top: 222px;
+    scroll-margin-top: 146px;
   }
 }
