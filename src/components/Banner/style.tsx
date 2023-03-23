@@ -12,16 +12,16 @@ const Container = styled.div`
   padding: 8% 10%;
   h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 62px;
     font-weight: bold;
     line-height: 64px;
     margin-bottom: 50px;
     text-shadow: 0.1em 0.1em 0.1em #242121;
     @media (max-width: 800px) {
       line-height: 28px;
-      font-size: 28px;
+      font-size: 30px;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 32px;
     }
   }
   h2 {
@@ -32,12 +32,12 @@ const Container = styled.div`
     @media (max-width: 800px) {
       font-size: 20px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
   }
   @media (max-width: 800px) {
     margin-top: 134px;
-    height: 360px;
+    height: 400px;
     align-items: center;
   }
 
