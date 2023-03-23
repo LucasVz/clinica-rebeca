@@ -16,7 +16,7 @@ const Container = styled.div`
     color: #af3864;
     margin-bottom: 30px;
     @media (max-width: 800px) {
-      font-size: 28px;
+      font-size: 30px;
     }
   }
   p {
@@ -24,7 +24,7 @@ const Container = styled.div`
     line-height: 18px;
     margin-bottom: 60px;
     @media (max-width: 800px) {
-      font-size: 14px;
+      font-size: 15px;
       line-height: 15px;
     }
   }

@@ -16,7 +16,7 @@ const Container = styled.div`
 
     margin-bottom: 40px;
     @media (max-width: 800px) {
-      font-size: 28px;
+      font-size: 30px;
       margin-bottom: 20px;
     }
   }
