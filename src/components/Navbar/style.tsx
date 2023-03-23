@@ -4,6 +4,7 @@ const Container = styled.div`
   height: 100px;
   width: 100%;
   background: linear-gradient(to right, #f6f6f6, #c95078f9);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   display: flex;
@@ -15,13 +16,14 @@ const Container = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     height: auto;
-    padding: 10px 10px 0 10px;
+    padding: 8px 8px 0 8px;
   }
 `;
 
 const Logo = styled.div`
   height: 90px;
   @media (max-width: 800px) {
+    height: 80px;
     margin-bottom: 10px;
   }
   img {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  padding: 7% 10%;
+  padding: 6% 10%;
   background: linear-gradient(to bottom, #ffffff, #bb8d0e);
   display: flex;
   flex-direction: column;
@@ -19,8 +19,8 @@ const Container = styled.div`
       font-size: 28px;
     }
   }
-  h2 {
-    font-size: 17px;
+  p {
+    font-size: 16px;
     line-height: 18px;
     margin-bottom: 60px;
     @media (max-width: 800px) {

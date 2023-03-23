@@ -8,8 +8,8 @@ body,
 html {
   width: 100%;
   height: 100%;
+  background-color: #a99793;
 
-  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -18,6 +18,14 @@ html {
 }
 @media (max-width: 800px) {
   :target {
-    scroll-margin-top: 146px;
+    scroll-margin-top: 134px;
   }
+}
+
+h1, h2{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h4, a, p{
+  font-family: "Montserrat", sans-serif;
 }
