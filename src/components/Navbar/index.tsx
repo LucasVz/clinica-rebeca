@@ -30,16 +30,16 @@ export default function Navbar() {
           <a href="#Inicio">Inicio</a>
         </li>
         <li>
-          <a href="#Sobre">Sobre Nós</a>
+          <a href="#Sobre">Nosso Espaço</a>
         </li>
         <li>
-          <a href="#Servicos">Serviços</a>
+          <a href="#Servicos">Tratamentos</a>
         </li>
         <li>
           <a href="#Depoimentos">Depoimentos</a>
         </li>
         <li>
-          <a href="#Footer">Footer</a>
+          <a href="#Footer">Localização</a>
         </li>
       </Options>
     </Container>

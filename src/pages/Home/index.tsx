@@ -4,6 +4,7 @@ import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import ClinicServices from "../../components/ClinicServices";
 import Depoiments from "../../components/Depoimets";
+import Contact from "../../components/ Contact";
 import { Container } from "./style";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <ClinicServices />
       <Depoiments />
       <Footer />
+      <Contact />
     </Container>
   );
 }

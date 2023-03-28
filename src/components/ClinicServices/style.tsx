@@ -69,5 +69,26 @@ const Service = styled.div`
     font-size: 14px;
   }
 `;
+const Button = styled.button`
+  all: unset;
+  width: 180px;
+  font-size: 16px;
+  margin-top: 4%;
+  @media (max-width: 800px) {
+    width: 90%;
+    padding: 12px 0px;
+  }
+  display: flex;
+  justify-content: center;
+  background: rgba(22, 156, 22, 0.996);
+  padding: 12px 40px;
+  border-radius: 40px;
+  a {
+    color: #ffffff;
+  }
+  &&:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+`;
 
-export { Container, Services, Service };
+export { Container, Services, Service, Button };

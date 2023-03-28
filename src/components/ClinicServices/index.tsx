@@ -1,4 +1,4 @@
-import { Container, Service, Services } from "./style";
+import { Container, Service, Services, Button } from "./style";
 import Bumbum from "../../assets/bumbum.jpg";
 import Gordura from "../../assets/Gordura.jpg";
 import Estrias from "../../assets/Estrias.jpg";
@@ -19,7 +19,7 @@ export default function ClinicServices() {
         </Service>
         <Service>
           <h4>Gordura localizada e celulite</h4>
-          <img src={Gordura} alt="Gordura" />
+          <img src={Gordura} alt="Gordura localizada e celulite" />
         </Service>
         <Service>
           <h4>Estrias</h4>
@@ -27,7 +27,7 @@ export default function ClinicServices() {
         </Service>
         <Service>
           <h4>Rugas, acne e pele oleosa</h4>
-          <img src={Limpeza} alt="Limpeza de pele" />
+          <img src={Limpeza} alt="Rugas, acne e pele oleosa" />
         </Service>
         <Service>
           <h4>Flacidez</h4>
@@ -35,16 +35,24 @@ export default function ClinicServices() {
         </Service>
         <Service>
           <h4>Dor e inchaço</h4>
-          <img src={Dor} alt="Dor" />
+          <img src={Dor} alt="Dor e inchaço" />
         </Service>
         <Service>
           <h4>Pelos e foliculites</h4>
-          <img src={Depilacao} alt="Depilação a lazer" />
+          <img src={Depilacao} alt="Pelos e foliculites" />
         </Service>
         <Service>
           <h4>Bumbum</h4>
           <img src={Bumbum} alt="Bumbum" />
         </Service>
+        <Button>
+          <a
+            target="blank"
+            href="https://api.whatsapp.com/send?phone=5586999348656&text=agendando%20consulta"
+          >
+            ENTRAR EM CONTATO
+          </a>
+        </Button>
       </Services>
     </Container>
   );

@@ -15,10 +15,14 @@ export default function AboutUs() {
         proporcionar relaxamento e bem estar.
       </p>
       <Galery>
-        <img className="clinic-img" src={foto1} alt="" />
-        <img className="clinic-img" src={foto2} alt="" />
-        <img className="clinic-img" src={foto3} alt="" />
-        <img className="clinic-img" src={foto4} alt="" />
+        <img className="clinic-img" src={foto1} alt="uma maca bem arrumada" />
+        <img className="clinic-img" src={foto2} alt="entrada da clínica " />
+        <img className="clinic-img" src={foto3} alt="entrada da clínica " />
+        <img
+          className="clinic-img"
+          src={foto4}
+          alt="sala de recepção da clínica "
+        />
       </Galery>
     </Container>
   );
